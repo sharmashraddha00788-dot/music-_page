@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Platform</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; }
+    header { background:#fff; text-align:center; padding:30px; }
+    header h1 { color:red; font-size:28px; }
+
+    /* Features */
+    .features { display:flex; justify-content:center; gap:40px; padding:30px; }
+    .feature { text-align:center; width:180px; }
+    .circle { width:80px; height:80px; border-radius:50%; background:#f44336; 
+              color:#fff; display:flex; align-items:center; justify-content:center; 
+              margin:0 auto 10px; font-size:14px; }
+
+    /* Guests */
+    .guests { text-align:center; padding:40px 20px; }
+    .guest-cards { display:flex; justify-content:center; gap:20px; }
+    .card { border:1px solid #ddd; border-radius:8px; width:220px; padding:15px; }
+    .card img { width:80px; height:80px; border-radius:50%; }
+    .card h3 { margin:10px 0 5px; }
+    .card p { font-size:13px; color:#555; }
+    .card button { background:red; color:white; border:none; padding:8px 12px; 
+                   margin-top:10px; cursor:pointer; border-radius:4px; }
+
+    /* Buy Section */
+    .buy { text-align:center; padding:40px 20px; }
+    .buy-items { display:flex; justify-content:center; gap:15px; }
+    .buy-items img { width:150px; height:100px; border-radius:6px; object-fit:cover; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Get ready for seamless online music</h1>
+  </header>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature">
+      <div class="circle">Offline</div>
+      <p>Offline mode – Save and listen anywhere.</p>
+    </div>
+    <div class="feature">
+      <div class="circle">HQ</div>
+      <p>High quality audio – Enjoy the full range of sound.</p>
+    </div>
+    <div class="feature">
+      <div class="circle">No Ads</div>
+      <p>No ads – Enjoy nonstop music.</p>
+    </div>
+    <div class="feature">
+      <div class="circle">Skip</div>
+      <p>Unlimited skips – Just tap skip.</p>
+    </div>
+  </section>
+
+  <!-- Guests -->
+  <section class="guests">
+    <h2>Featured Guests</h2>
+    <div class="guest-cards">
+      <div class="card">
+        <img src="girl.png" alt="Megan">
+        <h3>Megan Smith</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Register</button>
+      </div>
+      <div class="card">
+        <img src="girl2.jpg" alt="Brooke">
+        <h3>Brooke Kagle</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Register</button>
+      </div>
+      <div class="card">
+        <img src="men.jpg" alt="Philip">
+        <h3>Philip Martin</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Register</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buy What's New -->
+  <section class="buy">
+    <h2>BUY WHAT’S NEW</h2>
+    <div class="buy-items">
+      <img src="band.png" alt="Garage Band">
+      <img src="mic.png" alt="Garage Band">
+      <img src="bird.png" alt="Garage Band">
+      <img src="bird.png" alt="Garage Band">
+      <img src="bird.png" alt="Garage Band">
+    </div>
+  </section>
+</body>
+</html>
